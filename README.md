@@ -15,3 +15,16 @@ Tiny evaluation of moment.js alternatives
 | [Luxon](https://moment.github.io/luxon/)                                                      | A powerful, modern, and friendly wrapper for Javascript dates and times.                                            |
 | [date-fns](https://date-fns.org/)                                                             | The most comprehensive, yet simple and consistent toolset for manipulating JavaScript dates in a browser & Node.js. |
 | [days.js](https://github.com/iamkun/dayjs)                                                    | Fast 2kB alternative to Moment.js with the same modern API                                                          |
+
+## Usage
+
+### Installation
+
+```sh
+yarn
+```
+### Execution
+
+```sh
+yarn timing
+```
