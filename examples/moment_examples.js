@@ -5,27 +5,22 @@ const xMas = moment("2020-12-25");
 module.exports = [
     [
         "Formatting: DD-MM-YY",
-        moment().format("DD-MM-YYYY"),
-        "moment().format(\"DD-MM-YYYY\")"
+        now.format("DD-MM-YYYY")
     ],
     [
         "Now",
-        moment().format("DD-MM-YYYY"),
-        "moment()"
+        now.format("DD-MM-YYYY")
     ],
     [
         "Minus 1 day",
-        moment().subtract(1, "D").format("DD-MM-YYYY"),
-        "moment().subtract(1, \"D\")"
+        now.subtract(1, "D").format("DD-MM-YYYY")
     ],
     [
         "Minus 7 years and 50 days",
-        moment().subtract(7, "years").subtract(50, "days").format("DD-MM-YYYY"),
-        "moment().subtract(7, \"years\").subtract(50, \"days\")"
+        now.subtract(7, "years").subtract(50, "days").format("DD-MM-YYYY")
     ],
     [
         "Time to christmas",
-        now.to(xMas),
-        "... now.to(xMas, true) ..."
+        now.to(xMas)
     ]
 ];
