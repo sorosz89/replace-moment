@@ -1,7 +1,7 @@
 "use strict"
 
 const cTable = require("console.table");
-const dateFnsExamples = require("./examples/date_fns_examples");
+const dateFnsExamples = require("./examples/date-fns/date_fns_examples");
 const momentExamples = require("./examples/moment_examples");
 const dayjsExamples = require("./examples/dayjs_examples");
 const dateFnsTable = [];

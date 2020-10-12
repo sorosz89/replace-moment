@@ -10,11 +10,11 @@ _"We now generally consider Moment to be a legacy project in maintenance mode. I
 
 ## Possible alternatives
 
-| Name                                                                                          | Description                                                                                                         |
-| --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| [Intl](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl) | The Intl object is the namespace for the ECMAScript Internationalization API                                        |
+| Name | Description | Examples |
+|------|-------------|--------|
+| [Intl](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl) | The Intl object is the namespace for the ECMAScript Internationalization API                                        | [Intl examples]()
 | [Luxon](https://moment.github.io/luxon/)                                                      | A powerful, modern, and friendly wrapper for Javascript dates and times.                                            |
-| [date-fns](https://date-fns.org/)                                                             | The most comprehensive, yet simple and consistent toolset for manipulating JavaScript dates in a browser & Node.js. |
+| [date-fns](https://date-fns.org/)                                                             | The most comprehensive, yet simple and consistent toolset for manipulating JavaScript dates in a browser & Node.js. | [date-fns examples](examples\date-fns\date_fns_examples.js)
 | [days.js](https://github.com/iamkun/dayjs)                                                    | Fast 2kB alternative to Moment.js with the same modern API                                                          |
 
 ## Usage
@@ -29,16 +29,4 @@ yarn
 
 ```sh
 yarn timing
-```
-
-## Examples
-
-### DATE-FNS
-1. To format a given date:
-```sh
-format(now, "dd-MM-yyyy");
-```
-2. To get a previous day by 1 
-```sh
-format(sub(now, { days: 1 }), "dd-MM-yyyy")
 ```
