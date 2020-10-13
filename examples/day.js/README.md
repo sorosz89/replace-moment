@@ -11,7 +11,7 @@ dayjs().subtract(1, "d").format("DD-MM-YYYY");
 ```
 3. To get the date from 7 years and 50 days before
 ```sh
-now.subtract(7, "y").subtract(50, "d").format("DD-MM-YYYY");
+dayjs().subtract(7, "y").subtract(50, "d").format("DD-MM-YYYY");
 ``` 
 4. To get the remaining time to Christmas
 ```sh

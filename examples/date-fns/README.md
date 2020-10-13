@@ -15,9 +15,10 @@ format(sub(Date.now(), { years: 7, days: 1 }), "dd-MM-yyyy");
 ``` 
 4. To get the remaining time to Christmas
 ```sh
+const xMas = new Date("2020-12-25");
 JSON.stringify(
       intervalToDuration({
-        start: now,
+        start: Date.now(),
         end: xMas,
       })
     )
