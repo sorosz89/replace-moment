@@ -15,7 +15,7 @@ _"We now generally consider Moment to be a legacy project in maintenance mode. I
 | [Intl](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl) | The Intl object is the namespace for the ECMAScript Internationalization API                                        | [Intl examples]()
 | [Luxon](https://moment.github.io/luxon/)                                                      | A powerful, modern, and friendly wrapper for Javascript dates and times.                                            |
 | [date-fns](https://date-fns.org/)                                                             | The most comprehensive, yet simple and consistent toolset for manipulating JavaScript dates in a browser & Node.js. | [date-fns examples](https://github.com/sorosz89/replace-moment/blob/dayjs/examples/date-fns/README.md)
-| [days.js](https://github.com/iamkun/dayjs)                                                    | Fast 2kB alternative to Moment.js with the same modern API                                                          |
+| [day.js](https://github.com/iamkun/dayjs)                                                    | Fast 2kB alternative to Moment.js with the same modern API                                                          | [day.js examples](https://github.com/sorosz89/replace-moment/blob/dayjs/examples/day.js/README.md)|
 
 ## Usage
 
