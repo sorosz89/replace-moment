@@ -1,15 +1,19 @@
 "use strict"
 
 const cTable = require("console.table");
-const dateFnsExamples = require("./examples/date_fns_examples");
-const momentExamples = require("./examples/moment_examples");
+const dateFnsExamples = require("./examples/date-fns/date_fns_examples");
+const momentExamples = require("./examples/moment.js/moment_examples");
+const dayjsExamples = require("./examples/day.js/dayjs_examples");
 const dateFnsTable = [];
 const momentTable = [];
+const dayjsTable = [];
 
-const addToTable = (table, [name, entry, code]) => table.push({ name, entry, code });
+const addToTable = (table, [name, entry]) => table.push({ name, entry });
 
 momentExamples.forEach(i => addToTable(momentTable, i));
 dateFnsExamples.forEach(i => addToTable(dateFnsTable, i));
+dayjsExamples.forEach(i => addToTable(dayjsTable, i));
 
 console.table("\nMOMENT.JS", momentTable);
 console.table("\nDATE-FNS", dateFnsTable);
+console.table("\nDay.js", dayjsTable);
