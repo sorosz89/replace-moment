@@ -1,6 +1,6 @@
-const { format, sub, intervalToDuration } = require("date-fns");
+const { format, sub, intervalToDuration, getYear } = require("date-fns");
 const now = Date.now();
-const xMas = new Date("2020-12-25");
+const xMas = new Date(`${getYear(now)}-12-25`);
 
 module.exports = [
     [

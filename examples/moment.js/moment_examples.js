@@ -1,6 +1,6 @@
 const moment = require("moment");
 const now = moment();
-const xMas = moment("2020-12-25");
+const xMas = moment(`${now.get("year")}-12-25`);
 
 module.exports = [
     [

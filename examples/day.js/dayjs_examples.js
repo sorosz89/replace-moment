@@ -1,6 +1,6 @@
 const dayjs = require('dayjs')
 const now = dayjs();
-const xMas = dayjs("2020-12-25").format("YYYY-MM-DD");
+const xMas = dayjs(`${dayjs().year()}-12-25`).format("YYYY-MM-DD");
 
 const relativeTime = require('dayjs/plugin/relativeTime');
 dayjs.extend(relativeTime);
